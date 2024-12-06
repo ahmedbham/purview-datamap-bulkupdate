@@ -47,7 +47,7 @@ if post_response.status_code == 200:
     print("Extracted names:", names)
     
     # Append the extracted data to the existing CSV file
-    with open('Purview_ApplicationService-sample.csv', mode='a', newline='') as file:
+    with open('DataMap-Attrib-Upload_file_1.csv', mode='a', newline='') as file:
         writer = csv.writer(file)
         for id, name, entityType in zip(ids, names, entityTypes):
             writer.writerow([id, name, entityType])  # Write each row
