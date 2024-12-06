@@ -6,4 +6,4 @@
 4. Login to azure using the command `az login`
 5. To extract asset attributes for up to five Collections, run the command `python3 get_assets_for_n_collections.py <purview-account-name>` where `<purview-account-name>` is the name of the purview account.
 6. To extract asset attributes for a specific Collection, run the command `python3 get_assets_for_one_collections.py <purview-account-name> <collection-name>` where `<purview-account-name>` is the name of the purview account and `<collection-name>` is the CollectionId of the collection.
-Once the csv file(s) are populated, they can be imported into Purview Data Map using `Import` feature in New Purview Portal.
+7. Once the csv file(s) are populated, they can be imported into Purview Data Map using `Import` feature in New Purview Portal.
